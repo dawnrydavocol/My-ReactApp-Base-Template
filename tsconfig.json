@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "es2022",
+        "useDefineForClassFields": true,
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "allowJs": false,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "paths": {
+            "@src-assets/*": ["./src/assets/*"],
+            "@src-components/*": ["./src/components/*"],
+            "@src-context/*": ["./src/context/*"],
+            "@src-data/*": ["./src/data/*"],
+            "@src-features/*": ["./src/features/*"],
+            "@src-hooks/*": ["./src/hooks/*"],
+            "@src-layouts/*": ["./src/layouts/*"],
+            "@src-lib/*": ["./src/lib/*"],
+            "@src-pages/*": ["./src/pagse/*"],
+            "@src-services/*": ["./src/services/*"],
+            "@src-utils/*": ["./src/utils/*"]
+        }
+    },
+    "references": [{ "path": "./tsconfig.node.json" }]
+}
